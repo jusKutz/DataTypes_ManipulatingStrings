@@ -18,12 +18,12 @@ person_int = int(person_will_pay)
 
 #Computation for the tip
 percented_tip = Total_bill_int * (percent_tip_int / 100)
-rounded_tip = round(percented_tip, 2)
+
 
 #Adding total bill and tip
-Total_bill_tip = Total_bill_int + rounded_tip
+Total_bill_tip = Total_bill_int + percented_tip
 
 #Split the Total Bill
 Split_bill = Total_bill_tip / person_int
-
-print("Each person should pay: $" + str(Split_bill))
+total_amount = round(Split_bill, 2)
+print("Each person should pay: $" + str(total_amount))

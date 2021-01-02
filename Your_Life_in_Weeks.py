@@ -14,7 +14,3 @@ print (f"You have {day} days, {week} weeks, and {month} months left.")
 
 
 
-
-
-
-
